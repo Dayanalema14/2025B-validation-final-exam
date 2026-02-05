@@ -1,1 +1,10 @@
 target
+
+# SonarQube data (large files)
+sonarqube-docker/sonarqube_data/
+sonarqube-docker/postgresql_data/
+sonarqube-docker/postgresql/
+
+# Database files
+*.mv.db
+*.trace.db
